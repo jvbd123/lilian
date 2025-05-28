@@ -1,0 +1,134 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+	background: linear-gradient(135deg, #ffe6f0, #e0ccff);
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 20px;
+}
+
+.app {
+	background: #fff0f6;
+	width: 100%;
+	max-width: 500px;
+	padding: 30px 20px;
+	border-radius: 20px;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+	border: 2px solid #fcd6e5;
+}
+
+.app h1 {
+	font-size: 24px;
+	color: #b83280;
+	font-weight: 700;
+	text-align: center;
+	margin-bottom: 20px;
+	border-bottom: 2px dashed #c38ec7;
+	padding-bottom: 15px;
+}
+
+.quiz {
+	padding: 20px 0;
+}
+
+.quiz h2 {
+	font-size: 18px;
+	color: #6d2973;
+	font-weight: 600;
+	margin-bottom: 10px;
+}
+
+.btn {
+	background: #ffffff;
+	color: #6d2973;
+	font-weight: 500;
+	width: 100%;
+	border: 2px solid #dda0dd;
+	padding: 12px;
+	margin: 10px 0;
+	text-align: left;
+	border-radius: 10px;
+	cursor: pointer;
+	transition: all 0.3s ease;
+	font-size: 16px;
+}
+
+.btn:hover {
+	background-color: #f0d4f5;
+	transform: scale(1.02);
+}
+
+.next-btn {
+	background: linear-gradient(135deg, #ff66a3, #c94ddf);
+	color: white;
+	font-weight: 700;
+	width: 180px;
+	padding: 14px 20px;
+	margin: 30px auto 0;
+	border: none;
+	border-radius: 40px;
+	display: none;
+	cursor: pointer;
+	transition: all 0.4s ease;
+	box-shadow: 0 4px 15px rgba(255, 102, 163, 0.4);
+	text-align: center;
+	position: relative;
+	font-size: 17px;
+	letter-spacing: 1px;
+}
+
+.next-btn::after {
+	content: " 💕";
+	font-size: 18px;
+}
+
+.next-btn:hover {
+	background: linear-gradient(135deg, #e0488e, #a34cc5);
+	transform: scale(1.05);
+	box-shadow: 0 6px 18px rgba(199, 21, 133, 0.5);
+}
+
+
+.correct {
+	background: #c1f7c1 !important;
+	color: #2b6e2b;
+	border-color: #2b6e2b;
+}
+
+.incorrect {
+	background: #ffc4cc !important;
+	color: #8b1e2d;
+	border-color: #8b1e2d;
+}
+
+/* Responsividade */
+@media (max-width: 480px) {
+	.app {
+		padding: 25px 15px;
+	}
+
+	.app h1 {
+		font-size: 20px;
+	}
+
+	.quiz h2 {
+		font-size: 16px;
+	}
+
+	.btn {
+		font-size: 15px;
+		padding: 10px;
+	}
+
+	#next-btn {
+		width: 100%;
+		font-size: 16px;
+	}
+}
