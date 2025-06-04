@@ -1,81 +1,81 @@
-    body {
-    	margin: 0;
-    	padding: 0;
-    	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    	background: linear-gradient(to bottom right, #ffe6f0, #fff0f5);
-    	color: #800040;
-    	display: flex;
-    	flex-direction: column;
-    	align-items: center;
-    	justify-content: center;
-    	min-height: 100vh;
-    	padding: 20px;
-    	box-sizing: border-box;
-    	text-align: center;
-    }
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	background: linear-gradient(to bottom right, #dcd0ff, #f0e6ff);
+	color: #4b0082; /* roxo escuro */
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+	padding: 20px;
+	box-sizing: border-box;
+	text-align: center;
+}
 
-    .texto {
-    	max-width: 800px;
-    	background-color: #ffffffcc;
-    	border-radius: 20px;
-    	padding: 30px;
-    	box-shadow: 0 8px 16px rgba(255, 105, 180, 0.2);
-    	backdrop-filter: blur(10px);
-    	font-size: 1.2em;
-    	line-height: 1.8;
-    }
+.texto {
+	max-width: 800px;
+	background-color: #f7f0ffcc; /* branco com transparência lilás */
+	border-radius: 20px;
+	padding: 30px;
+	box-shadow: 0 8px 16px rgba(123, 104, 238, 0.2); /* sombra roxa suave */
+	backdrop-filter: blur(10px);
+	font-size: 1.2em;
+	line-height: 1.8;
+}
 
-    .texto strong {
-    	color: #cc005f;
-    }
+.texto strong {
+	color: #6a0dad; /* roxo vibrante */
+}
 
-    .botao {
-    	margin-top: 30px;
-    	display: flex;
-    	gap: 20px;
-    	flex-wrap: wrap;
-    	justify-content: center;
-    }
+.botao {
+	margin-top: 30px;
+	display: flex;
+	gap: 20px;
+	flex-wrap: wrap;
+	justify-content: center;
+}
 
-    .botao button {
-    	background-color: #ff66a3;
-    	border: none;
-    	padding: 15px 30px;
-    	font-size: 1.1em;
-    	border-radius: 30px;
-    	color: white;
-    	cursor: pointer;
-    	transition: background 0.3s ease, transform 0.2s ease;
-    	animation: pulse 2s infinite;
-    }
+.botao button {
+	background-color: #7b68ee; /* roxo médio */
+	border: none;
+	padding: 15px 30px;
+	font-size: 1.1em;
+	border-radius: 30px;
+	color: white;
+	cursor: pointer;
+	transition: background 0.3s ease, transform 0.2s ease;
+	animation: pulse 2s infinite;
+}
 
-    .botao button:hover {
-    	background-color: #e60073;
-    	transform: scale(1.05);
-    }
+.botao button:hover {
+	background-color: #5a47cc; /* roxo mais escuro no hover */
+	transform: scale(1.05);
+}
 
-    @keyframes pulse {
-    	0% {
-    		box-shadow: 0 0 0 0 rgba(255, 102, 163, 0.6);
-    	}
+@keyframes pulse {
+	0% {
+		box-shadow: 0 0 0 0 rgba(123, 104, 238, 0.6); /* sombra roxa pulsante */
+	}
 
-    	70% {
-    		box-shadow: 0 0 0 15px rgba(255, 102, 163, 0);
-    	}
+	70% {
+		box-shadow: 0 0 0 15px rgba(123, 104, 238, 0);
+	}
 
-    	100% {
-    		box-shadow: 0 0 0 0 rgba(255, 102, 163, 0);
-    	}
-    }
+	100% {
+		box-shadow: 0 0 0 0 rgba(123, 104, 238, 0);
+	}
+}
 
-    @media (max-width: 600px) {
-    	.texto {
-    		padding: 20px;
-    		font-size: 1em;
-    	}
+@media (max-width: 600px) {
+	.texto {
+		padding: 20px;
+		font-size: 1em;
+	}
 
-    	.botao button {
-    		width: 100%;
-    		max-width: 200px;
-    	}
-    }
+	.botao button {
+		width: 100%;
+		max-width: 200px;
+	}
+}

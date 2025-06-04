@@ -2,13 +2,13 @@
     max-width: 80%;     
     margin: 0 auto;      
     border-radius: 16px; 
-    box-shadow: 0 0 15px rgba(0,0,0,0.2);  
+    box-shadow: 0 0 15px rgba(75, 0, 130, 0.2);  /* sombra roxa */
     object-fit: cover;   
 }
 
 .carousel-item button {
     color: white;
-    background-color: #ff4081;
+    background-color: #7b68ee; /* roxo médio */
     border: none;
     padding: 10px 20px;
     border-radius: 25px;
@@ -20,12 +20,12 @@
 
 .carousel-item button:hover {
     transform: scale(1.1);
-    background-color: #ff79a6;
+    background-color: #9a8bff; /* roxo claro */
 }
 
 .btn {
     height: 50px;
-    background-color: #ff4081;
+    background-color: #7b68ee;
     color: white;
     border-radius: 12px;
     border: none;
@@ -37,12 +37,13 @@ body p {
     margin-top: 50px;
     font-size: 1.1em;
     line-height: 1.6;
+    color: #4b0082; /* roxo escuro */
 }
 
 body h1 {
     margin-left: 3%;
     margin-top: 50px;
-    color: #ff0066;
+    color: #6a5acd; /* roxo vibrante */
     font-size: 2.2em;
     animation: subir 1s ease-in-out;
 }
@@ -51,8 +52,8 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     text-align: justify;
     text-transform: capitalize;
-    background: linear-gradient(to bottom right, #ffe0f0, #ffffff);
-    color: #333;
+    background: linear-gradient(to bottom right, #dcd0ff, #f0e6ff);
+    color: #4b0082;
 }
 
 .txt {
@@ -61,6 +62,7 @@ body {
     margin-right: 40px;
     text-transform: none;
     font-size: 1em;
+    color: #4b0082;
 }
 
 #amor {
@@ -69,8 +71,8 @@ body {
     width: 90%;
     max-width: 410px;
     height: auto;
-    border: 5px solid #ff69b4;
-    box-shadow: 0 0 30px rgba(255, 105, 180, 0.6);
+    border: 5px solid #9370db; /* roxo médio */
+    box-shadow: 0 0 30px rgba(147, 112, 219, 0.6);
     animation: pulsar 2s infinite;
     border-radius: 20px;
     object-fit: cover; 
@@ -79,17 +81,18 @@ body {
 #logo {
     width: 120px;
     margin-top: 15px;
-    filter: drop-shadow(0 0 5px #ff4081);
+    filter: drop-shadow(0 0 5px #7b68ee);
 }
 
 #ft {
     text-decoration: underline;
     font-size: 1em;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #4b0082;
 }
 
 #Tamo {
-    color: rgb(250, 6, 6);
+    color: rgb(107, 63, 187); /* roxo vivo */
     animation: piscar 2s infinite;
     font-weight: bold;
     font-size: 5vw; /* Responsivo */
@@ -154,16 +157,17 @@ body {
         width: 80px;
     }
 }
+
 .button {
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 20px 0;
-  background-color: #ffe0f0;
+  background-color: #dcd0ff;
 }
 
 .button .btn {
-  background-color: #ff4081;
+  background-color: #7b68ee;
   color: white;
   padding: 12px 24px;
   border: none;
@@ -172,11 +176,10 @@ body {
   font-weight: bold;
   cursor: pointer;
   transition: transform 0.3s ease;
-  box-shadow: 0 4px 15px rgba(255, 64, 129, 0.4);
+  box-shadow: 0 4px 15px rgba(123, 104, 238, 0.4);
 }
 
 .button .btn:hover {
   transform: scale(1.05);
-  background-color: #ff79a6;
+  background-color: #9a8bff;
 }
-

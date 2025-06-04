@@ -6,7 +6,7 @@
 }
 
 body {
-	background: linear-gradient(135deg, #ffe6f0, #e0ccff);
+	background: linear-gradient(135deg, #d9ccff, #bbaaff);
 	min-height: 100vh;
 	display: flex;
 	align-items: center;
@@ -15,22 +15,22 @@ body {
 }
 
 .app {
-	background: #fff0f6;
+	background: #f3e9ff;
 	width: 100%;
 	max-width: 500px;
 	padding: 30px 20px;
 	border-radius: 20px;
-	box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-	border: 2px solid #fcd6e5;
+	box-shadow: 0 0 20px rgba(102, 51, 153, 0.15);
+	border: 2px solid #c9b3ff;
 }
 
 .app h1 {
 	font-size: 24px;
-	color: #b83280;
+	color: #6a3d9a;
 	font-weight: 700;
 	text-align: center;
 	margin-bottom: 20px;
-	border-bottom: 2px dashed #c38ec7;
+	border-bottom: 2px dashed #9e7ed6;
 	padding-bottom: 15px;
 }
 
@@ -40,17 +40,17 @@ body {
 
 .quiz h2 {
 	font-size: 18px;
-	color: #6d2973;
+	color: #5b2e8a;
 	font-weight: 600;
 	margin-bottom: 10px;
 }
 
 .btn {
 	background: #ffffff;
-	color: #6d2973;
+	color: #5b2e8a;
 	font-weight: 500;
 	width: 100%;
-	border: 2px solid #dda0dd;
+	border: 2px solid #b799e9;
 	padding: 12px;
 	margin: 10px 0;
 	text-align: left;
@@ -61,12 +61,12 @@ body {
 }
 
 .btn:hover {
-	background-color: #f0d4f5;
+	background-color: #e7d9ff;
 	transform: scale(1.02);
 }
 
 .next-btn {
-	background: linear-gradient(135deg, #ff66a3, #c94ddf);
+	background: linear-gradient(135deg, #7e57c2, #b085ff);
 	color: white;
 	font-weight: 700;
 	width: 180px;
@@ -77,7 +77,7 @@ body {
 	display: none;
 	cursor: pointer;
 	transition: all 0.4s ease;
-	box-shadow: 0 4px 15px rgba(255, 102, 163, 0.4);
+	box-shadow: 0 4px 15px rgba(126, 87, 194, 0.4);
 	text-align: center;
 	position: relative;
 	font-size: 17px;
@@ -85,27 +85,26 @@ body {
 }
 
 .next-btn::after {
-	content: " 💕";
+	content: " 💜";
 	font-size: 18px;
 }
 
 .next-btn:hover {
-	background: linear-gradient(135deg, #e0488e, #a34cc5);
+	background: linear-gradient(135deg, #5e3a9d, #7a57c8);
 	transform: scale(1.05);
-	box-shadow: 0 6px 18px rgba(199, 21, 133, 0.5);
+	box-shadow: 0 6px 18px rgba(110, 55, 180, 0.5);
 }
 
-
 .correct {
-	background: #c1f7c1 !important;
-	color: #2b6e2b;
-	border-color: #2b6e2b;
+	background: #c7e5c7 !important;
+	color: #2f662f;
+	border-color: #2f662f;
 }
 
 .incorrect {
-	background: #ffc4cc !important;
-	color: #8b1e2d;
-	border-color: #8b1e2d;
+	background: #f6d1df !important;
+	color: #7a2e46;
+	border-color: #7a2e46;
 }
 
 /* Responsividade */
