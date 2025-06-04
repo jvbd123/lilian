@@ -155,12 +155,12 @@ function showScore() {
 
 
     nextButton.onclick = () => {
-        if (score >= 4) {
+        if (score > 4) {
 
-            window.location.href = "/videos/surpresa.mp4";
+            window.location.href = "pedido.html";
         } else {
 
-            window.location.href = "https://youtu.be/15k8oOXynJs?si=b82xY-eo-gGJRvbk";
+          window.location.href = "pedido.html"
         }
     };
 }
